@@ -9,7 +9,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
+// Future merupakan representasi data yang akan dikembalikan oleh proses asynchronous
+// Menggunakan Future, kita bisa mengecek apakah pekerjaan Callable sudah selesai atau belum, dan juga mendapat data hasil dari Callable
 public class FutureTest {
 
   @Test
